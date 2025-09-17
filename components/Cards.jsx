@@ -1,4 +1,4 @@
-import "../styles/cards.css";
+import "../styles/Cards.css";
 
 function Cards({ data, loading, error, handleChoice, shuffleCards }){
   if (loading) return <p>Loading...</p>;
