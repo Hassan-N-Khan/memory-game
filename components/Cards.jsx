@@ -1,6 +1,6 @@
 import "../styles/cards.css";
 
-const Cards = ({ data, loading, error, handleChoice, shuffleCards }) => {
+function Cards({ data, loading, error, handleChoice, shuffleCards }){
   if (loading) return <p>Loading...</p>;
   if (error) return <p>{error.message}</p>;
 

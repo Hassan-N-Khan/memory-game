@@ -1,6 +1,6 @@
 // Game.jsx
 import { useState, useEffect } from "react";
-import Cards from "./cards";
+import Cards from "./Cards.jsx";
 import "../styles/Game.css";
 
 const Game = () => {
